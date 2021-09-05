@@ -36,38 +36,3 @@ const displayPokemon = (pokemon) => {
 };
 
 fetchPokemon();
-
-
-
-        // fetch(url)
-        //     .then( res => {
-        //         return res.json();
-        //     })
-            // .then(data => { //promise
-            //     console.log(data);
-            //     const pokemon = {
-                    
-            //     };
-            //     console.log(pokemon);
-        
-            // const pokemon = {};
-            // pokemon['name'] = data.name;
-            // pokemon['id'] = data.id;
-            // pokemon['image'] = data.sprites['front_default'];
-            // // pokemon['type'] = data.types.type;
-            // // pokemon['type'] = ""; //initialize empty string to get rid of the undefined type coming in the output
-            // // data.types.forEach((type) => { //iterate over the array and concatenate them to separated by comma and display in a line
-            // //     pokemon['type'] = pokemon['type'] + ',' + type.type.name;
-            // // })
-            // //making the forEach lot cleaner
-            // //Pokemon Types
-            // pokemon['type'] = data.types
-            //     .map((type) => type.type.name)
-            //     .join(', ');
-            // // adding abilities
-            // pokemon['ability'] = data.abilities
-            //     .map((ability) => ability.ability.name)
-            //     .join(', ');
-            // ability: data.abilities.map((ability) =>ability.ability.name).join(', '),
-
-            // <p class="card-ability"> Ability: ${pokeman.ability}</p>
