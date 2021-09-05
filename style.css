@@ -45,6 +45,12 @@ body{
     margin-top: 5px;
 }
 
+.card-ability {
+    font-weight: lighter;
+    color: #666;
+    margin-top: 5px;
+}
+
 .card-image{
     height: 180px;
         /* margin: 0 auto; */
@@ -64,6 +70,7 @@ h1{
     text-transform: uppercase;
     text-align: center;
     font-size: 54px;
+    color: yellow;
 }
 
 
